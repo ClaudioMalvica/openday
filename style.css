@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+}
+body
+{
+    background-image: url('img/background_1.webp');
+}
+
+.titles
+{
+  margin-left: 20px;
+  margin-top: 30px
+}
+
+.card-image
+{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow: 5px 5px 30px black;
+}
+
