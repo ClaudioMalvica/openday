@@ -20,5 +20,12 @@ body
   margin-right: auto;
   width: 50%;
   box-shadow: 5px 5px 30px black;
+  transition: 0.6s;
+}
+
+.card-image:hover
+{
+    filter: brightness(180%);
+
 }
 
