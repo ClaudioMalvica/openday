@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/6d25a39993.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div id="image-viewer" class="image-viewer" style="display: none">
+        <img src="#" class="viewer-images">
+        <div class="close-button-div" onclick="closeImageViewer()">
+            <center><i class="fa-solid fa-x close-button"></i><center>
+        </div>
+    </div>
+<div class="full-black" onclick="closeImageViewer()"></div>
+
+<div class="container pt-3 bg-dark text-white h-100 shadow-lg">
+  <center><h1>Esempi pratici di C#</h1></center>
+  <ul class='titles'>
+    <h1><li>Super Mario tarocco <h3>(Nintendo non denunciarci)</h3></li></h1>
+  </ul>
+  <br>
+  <div class="card">
+    <div class="card-body bg-dark">
+      <p class="card-text">Una copia brutta di Super Mario in C# usando Unity.</p><br>
+        <div class="row">
+            <div class="col">
+            <a id="img/bario_example_1.png" target="_blank" onclick="showFullScreenImage(this.id)"><img class="card-image" src="img/bario_example_1.png" style="width: 80%;" alt=""></a><br>
+            </div>
+        </div><br>
+        <div class="col-md-12 text-center">
+            <a href="examples/bario.zip" class="btn btn-primary">Scarica il gioco (fa schifo)</a>
+        </div>
+    </div>
+  </div>
+  <br>
+  <ul class='titles'>
+    <h1><li>Sasso Carta Forbice</li></h1>
+  </ul>
+  <br>
+  <div class="card">
+    <div class="card-body bg-dark">
+      <p class="card-text">Volete giocare ma non avete amici? Ci penso io!</p><br>
+        <div class="row">
+            <div class="col">
+                <a href="img/rock_example_1.png" target="_blank"><img class="float-end card-image-nowidth" src="img/rock_example_1.png" style="width: 80%" alt=""></a><br>
+            </div>
+            <div class="col">
+                <a href="img/rock_example_2.png" target="_blank"><img class="float-start card-image-nowidth" src="img/rock_example_2.png" style="width: 90%; margin-top: 25px" alt=""></a>
+            </div>
+        </div><br>
+        <div class="col-md-12 text-center">
+            <a href="https://github.com/Cikappa2904/RockPaperScissors" class="btn btn-primary">Scarica il codice</a>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
