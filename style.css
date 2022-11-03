@@ -3,7 +3,8 @@ html, body {
 }
 body
 {
-    background-image: url('img/background_1.webp');
+    background-color: #fe1bb3;
+    /* background-image: url('img/background_1.webp'); */
 }
 
 .titles
@@ -31,15 +32,28 @@ body
 
 .card-image-nowidth
 {
-    box-shadow: 5px 5px 30px black;
-    transition: 0.6s;
+    /* box-shadow: 5px 5px 30px black; */
+    transition: 0.3s;
     cursor: pointer;
+    filter:  brightness(100%) drop-shadow(5px 5px 10px #000);
 }
 
 .card-image-nowidth:hover
 {
-    filter: brightness(180%);
+    filter: brightness(140%);
 
+}
+
+.card-image-logo
+{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 30px black;
+    transition: 0.6s;
+    cursor: pointer;
+    transform: translate(-50%);
 }
 
 .image-viewer
@@ -85,6 +99,7 @@ body
 }
 .close-button-div
 {
+    position: relative;
     float: right;
     margin-right: 20px;
     margin-top: -30px;
@@ -92,6 +107,7 @@ body
     width: 30px;
     height: 25px;
     border-radius: 3px;
+    z-index: 1100;
     cursor: pointer;
 }
 
