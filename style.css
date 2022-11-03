@@ -3,8 +3,8 @@ html, body {
 }
 body
 {
-    background-color: #fe1bb3;
-    /* background-image: url('img/background_1.webp'); */
+    /* background-color: #fe1bb3; */
+    background-image: url('img/why.png');
 }
 
 .titles
