@@ -12,13 +12,13 @@
 </head>
 <body>
 
-    <div id="image-viewer" class="image-viewer" style="display: none">
+    <div id="image-viewer" class="image-viewer">
         <img src="#" class="viewer-images">
         <div class="close-button-div" onclick="closeImageViewer()">
-            <center><i class="fa-solid fa-x close-button"></i><center>
+            <center><i class="fa-solid fa-x close-button"></i></center>
         </div>
     </div>
-<div class="full-black" onclick="closeImageViewer()"></div>
+    <div class="full-black" onclick="closeImageViewer()"></div>
 
 <div class="container pt-3 bg-dark text-white h-100 shadow-lg">
   <center><h1>Esempi pratici di C#</h1></center>
@@ -49,10 +49,10 @@
       <p class="card-text">Volete giocare ma non avete amici? Ci penso io!</p><br>
         <div class="row">
             <div class="col">
-                <a href="img/rock_example_1.png" target="_blank"><img class="float-end card-image-nowidth" src="img/rock_example_1.png" style="width: 80%" alt=""></a><br>
+                <a id="img/rock_example_1.png" target="_blank" onclick="showFullScreenImage(this.id)"><img class="float-end card-image-nowidth" src="img/rock_example_1.png" style="width: 80%" alt=""></a><br>
             </div>
             <div class="col">
-                <a href="img/rock_example_2.png" target="_blank"><img class="float-start card-image-nowidth" src="img/rock_example_2.png" style="width: 90%; margin-top: 25px" alt=""></a>
+                <a id="img/rock_example_2.png" target="_blank" onclick="showFullScreenImage(this.id)"><img class="float-start card-image-nowidth" src="img/rock_example_2.png" style="width: 90%; margin-top: 25px" alt=""></a>
             </div>
         </div><br>
         <div class="col-md-12 text-center">

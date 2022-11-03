@@ -6,7 +6,6 @@ function showFullScreenImage(buttonValue)
     const imageViewerObj = document.getElementById("image-viewer");
     imageViewerObj.firstElementChild.src = buttonValue;
     imageViewerObj.style.display = "block";
-    console.log(buttonValue);
 }
 
 function closeImageViewer()
