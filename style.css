@@ -5,6 +5,7 @@ body
 {
     /* background-color: #fe1bb3; */
     background-image: url('img/why.png');
+    background-size: 100% 1000%;
 }
 
 .titles
